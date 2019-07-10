@@ -1,0 +1,11 @@
+packageName: "svgReader"
+wbfolder:
+  enabled: true
+watch:
+  - "./src/**/*.*"
+deployment:
+  toLocal:
+    enabled: true
+    pathFetching: false
+    localExtensionsBaseDir: "C:\\Users\\thaenig\\Documents\\Qlik\\Sense\\Extensions"
+    extensionDirOverride: "svgReader"
